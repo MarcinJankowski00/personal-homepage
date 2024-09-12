@@ -1,16 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { GlobalStyle } from './globalStyle';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+    <>
+    <GlobalStyle />
+    <div>
+      <h1>Nagłówek H1</h1>
+      <p>To jest przykładowy paragraf.</p>
+      <ul>
+        <li>Element listy 1</li>
+        <li>Element listy 2</li>
+      </ul>
+      <button>Testowy Przycisk</button>
     </div>
+    </>
   );
 }
 
