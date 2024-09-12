@@ -17,6 +17,6 @@ export const Item = styled.li`
         line-height: 17px;
         position: absolute;
         margin-left: -20px;
-        color: ${({ theme }) => theme.color.listdot};
+        color: ${({ theme }) => theme.color.blue};
     }
 `;

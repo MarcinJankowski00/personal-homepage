@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Segment = styled.section`
-    margin: 10px 0;
+    margin: 73px 0;
     background-color: ${({ theme }) => theme.color.white};
     box-shadow: 0px 16px 58px 0px #090A3308;
 `;
