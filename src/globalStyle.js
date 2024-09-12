@@ -2,8 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   body {
-    font-size: 16px;
-    background-color: #efefef;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    background-color: ${({ theme }) => theme.color.appbackground};
     justify-content: center;
     margin: 0;
     padding: 0; 

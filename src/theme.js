@@ -1,7 +1,10 @@
 export const theme = {
     color: {
         black: "#000000",
-        grey: "#E4E6F0",
+        headerunderline: "#D1D5DA4D",
+        textsecondary: "#6E7E91",
+        appbackground: "#FBFBFE",
+        listdot: "#0366D6",
         white: "#FFFFFF",
         darkerGrey: "#7E839A",
         scienceBlue: "#0044CC",

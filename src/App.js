@@ -1,19 +1,26 @@
 import React from 'react';
+import Container from "./Container"
 import { GlobalStyle } from './globalStyle';
+import SkillsetList from './List/SkillsetList';
+import WantToLearnListList from './List/WantToLearnList';
+import Section from './Section';
 
 function App() {
   return (
     <>
-    <GlobalStyle />
-    <div>
-      <h1>Nagłówek H1</h1>
-      <p>To jest przykładowy paragraf.</p>
-      <ul>
-        <li>Element listy 1</li>
-        <li>Element listy 2</li>
-      </ul>
-      <button>Testowy Przycisk</button>
-    </div>
+      <GlobalStyle />
+      <Container>
+        <h1>Nagłówek H1</h1>
+        <p>To jest przykładowy paragraf.</p>
+        <Section 
+          title="My skillset includes 🛠️"
+          content={<SkillsetList />}
+        />
+        <Section 
+          title="What I want to learn next 🚀"
+          content={<WantToLearnListList />}
+        />
+      </Container>
     </>
   );
 }
