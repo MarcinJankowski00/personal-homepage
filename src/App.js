@@ -6,6 +6,7 @@ import WantToLearnListList from './List/WantToLearnList';
 import Section from './Section';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           content={<WantToLearnListList />}
         />
         <Portfolio />
+        <Contact />
       </Container>
     </>
   );

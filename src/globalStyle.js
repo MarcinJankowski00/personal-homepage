@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 20px;
     letter-spacing: 0.05em;
     background-color: ${({ theme }) => theme.color.appbackground};
+    color: ${({ theme }) => theme.color.font};
     justify-content: center;
     margin: 0;
     padding: 0; 

@@ -1,6 +1,7 @@
 export const theme = {
     color: {
         black: "#000000",
+        font: "#000000",
         headerunderline: "#D1D5DA4D",
         textsecondary: "#6E7E91",
         appbackground: "#FBFBFE",
