@@ -17,8 +17,10 @@ export const LetsTalk = styled.div`
 `;
 
 export const Mail = styled.a`
+    color: ${({ theme }) => theme.color.font};
     font-size: 32px;
     font-weight: 900;
+    text-decoration: none;
     transition: 0.3s;
     cursor: pointer;
     &:hover {

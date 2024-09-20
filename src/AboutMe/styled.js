@@ -43,10 +43,11 @@ export const Content = styled.div`
     text-align: left;
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
     background-color: ${({ theme }) => theme.color.blue};
     color: ${({ theme }) => theme.color.white};
-    display: flex;
+    display: inline-flex;
+    text-decoration: none;
     align-items: center;
     font-size: 20px;
     font-weight: 600;

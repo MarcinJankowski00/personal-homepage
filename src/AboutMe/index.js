@@ -12,9 +12,9 @@ const AboutMe = () => (
                 </Title>
             </Heading>
             <Content>
-                👨🏻‍💻 I’m a passionate Frontend Developer in love with React,currently looking for new job opportunities
+                👨🏻‍💻 I’m a passionate Frontend Developer in love with React, currently looking for new job opportunities
             </Content>
-            <Button><StyledIcon />Hire Me</Button>
+            <Button href="mailto:marcin5771@gmail.com"><StyledIcon />Hire Me</Button>
         </Wrapper>
     </Segment>
 );
