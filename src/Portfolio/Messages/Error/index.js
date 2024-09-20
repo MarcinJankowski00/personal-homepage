@@ -10,7 +10,7 @@ const Error = () => (
             Sorry, failed to load Github projects.
             You can check them directly on Github.
         </Content>
-        <Button href="https://github.com/MarcinJankowski00" target="_blank">
+        <Button href="https://github.com/MarcinJankowski00" target="_blank" rel="noopener noreferrer">
             Go to Github
         </Button>
     </>
