@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/MarcinJankowski00/personal-homepage/static/css/main.58462fbc.css",
-    "main.js": "/MarcinJankowski00/personal-homepage/static/js/main.ebfa762d.js",
+    "main.js": "/MarcinJankowski00/personal-homepage/static/js/main.7934115a.js",
     "static/js/453.61d4ab14.chunk.js": "/MarcinJankowski00/personal-homepage/static/js/453.61d4ab14.chunk.js",
+    "static/media/avatar.png": "/MarcinJankowski00/personal-homepage/static/media/avatar.0a24b63759fc6a35707a.png",
     "index.html": "/MarcinJankowski00/personal-homepage/index.html",
+    "static/media/mailIcon.svg": "/MarcinJankowski00/personal-homepage/static/media/mailIcon.b5d25eb0c23a4cd9f005484cf64a5dae.svg",
     "main.58462fbc.css.map": "/MarcinJankowski00/personal-homepage/static/css/main.58462fbc.css.map",
-    "main.ebfa762d.js.map": "/MarcinJankowski00/personal-homepage/static/js/main.ebfa762d.js.map",
+    "main.7934115a.js.map": "/MarcinJankowski00/personal-homepage/static/js/main.7934115a.js.map",
     "453.61d4ab14.chunk.js.map": "/MarcinJankowski00/personal-homepage/static/js/453.61d4ab14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58462fbc.css",
-    "static/js/main.ebfa762d.js"
+    "static/js/main.7934115a.js"
   ]
 }
