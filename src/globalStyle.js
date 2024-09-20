@@ -6,7 +6,8 @@ export const GlobalStyle = createGlobalStyle`
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
+    letter-spacing: 0.05em;
     background-color: ${({ theme }) => theme.color.appbackground};
     justify-content: center;
     margin: 0;

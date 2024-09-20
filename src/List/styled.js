@@ -11,6 +11,7 @@ export const List = styled.ul`
 
 export const Item = styled.li`
     color: ${({ theme }) => theme.color.textsecondary};
+    font-size: 18px;
     &::before {
         content: '•';
         font-size: 24px;

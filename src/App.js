@@ -4,14 +4,14 @@ import { GlobalStyle } from './globalStyle';
 import SkillsetList from './List/SkillsetList';
 import WantToLearnListList from './List/WantToLearnList';
 import Section from './Section';
+import AboutMe from './AboutMe';
 
 function App() {
   return (
     <>
       <GlobalStyle />
       <Container>
-        <h1>Nagłówek H1</h1>
-        <p>To jest przykładowy paragraf.</p>
+        <AboutMe />
         <Section 
           title="My skillset includes 🛠️"
           content={<SkillsetList />}
