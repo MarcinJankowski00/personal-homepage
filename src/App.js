@@ -14,7 +14,6 @@ import { lightTheme, darkTheme } from './theme';
 function App() {
   const { theme } = useTheme();
   const currentTheme = theme === 'light' ? lightTheme : darkTheme;
-  console.log('Aktualny motyw:', theme);
 
   return (
     <>
