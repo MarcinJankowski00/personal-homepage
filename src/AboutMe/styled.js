@@ -6,7 +6,6 @@ export const Segment = styled.section`
     display: flex;
     align-items: center;
     margin: 73px 0;
-    max-width: 1089px;
 `;
 
 export const Photo = styled.img`

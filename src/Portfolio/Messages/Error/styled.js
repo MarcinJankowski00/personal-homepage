@@ -2,7 +2,8 @@ import styled from "styled-components";
 import { ReactComponent as ErrorIcon } from "../../images/errorIcon.svg"
 
 export const StyledIcon = styled(ErrorIcon)`
-
+    stroke: ${({ theme }) => theme.color.font};
+    fill: ${({ theme }) => theme.color.font};
 `;
 
 export const Title = styled.h3`

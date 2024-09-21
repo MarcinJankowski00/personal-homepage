@@ -1,5 +1,6 @@
 import { Segment, Photo, Wrapper, Heading, ThisIs, Title, Content, Button, StyledIcon } from "./styled";
 import avatar from "./images/avatar.png"
+import ThemeButton from "./ThemeButton";
 
 const AboutMe = () => (
     <Segment>
@@ -16,6 +17,7 @@ const AboutMe = () => (
             </Content>
             <Button href="mailto:marcin5771@gmail.com"><StyledIcon />Hire Me</Button>
         </Wrapper>
+        <ThemeButton />
     </Segment>
 );
 

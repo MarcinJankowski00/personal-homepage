@@ -5,7 +5,7 @@ export const List = styled.ul`
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 8px;
+    grid-gap: 14px;
     margin: 0;
 `;
 

@@ -11,7 +11,7 @@ export const Segment = styled.section`
 `;
 
 export const StyledIcon = styled(GhIcon)`
-    color: ${({ theme }) => theme.color.blue};
+    fill: ${({ theme }) => theme.color.blue};
 `;
 
 export const MyProjects = styled.div`
