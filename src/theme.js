@@ -12,8 +12,9 @@ export const lightTheme = {
         switchbackground: "#E5E5E5",
         switchborder: "#6E7E91",
         switchiconbackground: "#6E7E91",
-        darkerGrey: "#7E839A",
-        scienceBlue: "#0044CC",
+        underline: "#c2c4c8",
+        reponame: "#0366D6",
+        repoborder: "#D1D5DA4D",
     },
     breakpoint: {
         mobilemax: 1025,
@@ -35,8 +36,9 @@ export const darkTheme = {
         switchbackground: "#4e4e4e",
         switchborder: "#E5E5E5",
         switchiconbackground: "#FFFFFF",
-        darkerGrey: "#7E839A",
-        scienceBlue: "#0044CC",
+        reponame: "#FFFFFF",
+        underline: "#2188FF",
+        repoborder: "#D1D5DA1A",
     },
     breakpoint: {
         mobilemax: 1025,
