@@ -4,18 +4,12 @@ const WantToLearnListList = () => {
 
     return (
         <List>
-            <Item>1</Item>
-            <Item>2</Item>
-            <Item>3</Item>
-            <Item>4</Item>
-            <Item>1</Item>
-            <Item>2</Item>
-            <Item>3</Item>
-            <Item>4</Item>
-            <Item>1</Item>
-            <Item>2</Item>
-            <Item>3</Item>
-            <Item>4</Item>
+            <Item>React Context</Item>
+            <Item>Cypress</Item>
+            <Item>TypeScript</Item>
+            <Item>Node.js</Item>
+            <Item>Unit testing</Item>
+            <Item>JS classes</Item>
         </List >
     );
 };
