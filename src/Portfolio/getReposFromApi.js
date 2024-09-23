@@ -1,24 +1,10 @@
-import { Octokit } from "@octokit/rest"
-import { accessToken } from "./accessToken";
+import axios from "axios"
 
 export const getReposFromApi = async () => {
-  const octokit = new Octokit({
-    auth: `${accessToken}`,
-  })
-
-  try {
-    const response = await octokit.request('GET /users/{username}/repos', {
-      username: 'MarcinJankowski00',
-      headers: {
-        'X-GitHub-Api-Version': '2022-11-28'
-      }
+  return axios.get('https://api.github.com/users/MarcinJankowski00/repos')
+    .then(response => response.data)
+    .catch(error => {
+      console.error("Error fetching repos:", error);
+      return [];
     });
-    console.log(response.data)
-    return response.data;
-  } catch (error) {
-    if (error.status) {
-      console.error(`Error ${error.status}: ${error.message}`)
-      console.error('Unexpected error:', error)
-    }
-  }
-}
+};
