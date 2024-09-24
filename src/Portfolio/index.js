@@ -13,7 +13,7 @@ const Portfolio = () => {
             const data = await getReposFromApi();
 
             if (data && Array.isArray(data)) {
-                setRepos(data);
+                setRepos(data.filter(repo => repo.description !== null));
             } else {
                 setRepos([]);
             }
@@ -57,10 +57,12 @@ const Portfolio = () => {
                                     repos.map((repo) => (
 
                                         <Repo key={repo.id}>
-                                            <Name>{formatText(repo.name)}</Name>
-                                            <Description>
-                                                {repo.description}
-                                            </Description>
+                                            <div>
+                                                <Name>{formatText(repo.name)}</Name>
+                                                <Description>
+                                                    {repo.description}
+                                                </Description>
+                                            </div>
                                             <Links>
                                                 Code: <Link href={repo.html_url} target="_blank" rel="noopener noreferrer">Link to Code</Link><br />
                                                 Demo: <Link href={`https://marcinjankowski00.github.io/${repo.name}`} target="_blank" rel="noopener noreferrer">Link to Demo</Link>
