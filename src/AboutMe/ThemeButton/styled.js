@@ -1,22 +1,6 @@
 import styled from "styled-components";
 import { ReactComponent as SunIcon } from "./images/sunIcon.svg"
 
-
-export const Wrapper = styled.div`
-    align-self: flex-start;
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-`;
-
-export const Text = styled.div`
-    width: 100px;
-    font-weight: 600;
-    margin-right: 5px;
-    letter-spacing: 0;
-    color: ${({ theme }) => theme.color.textsecondary};
-`;
-
 export const ThemeSwitch = styled.button`
     width: 48px;
     height: 26px;

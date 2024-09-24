@@ -8,12 +8,17 @@ export const GlobalStyle = createGlobalStyle`
     font-style: normal;
     font-size: 20px;
     letter-spacing: 0.07em;
+    line-height: 28px;
     background-color: ${({ theme }) => theme.color.appbackground};
     color: ${({ theme }) => theme.color.font};
     justify-content: center;
     margin: 0;
     padding: 0; 
-    
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax3}px) {
+      font-size: 17px;
+      letter-spacing: 0.05em;
+      line-height: 19px;
+    }
   }
 
   html {

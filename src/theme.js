@@ -17,9 +17,11 @@ export const lightTheme = {
         repoborder: "#D1D5DA4D",
     },
     breakpoint: {
-        mobilemax: 1025,
+        mobileMax: 793,
+        mobileMax1: 581,
+        mobileMax2: 458,
+        mobileMax3: 435,
     }
-
 };
 
 export const darkTheme = {
@@ -41,6 +43,9 @@ export const darkTheme = {
         repoborder: "#D1D5DA1A",
     },
     breakpoint: {
-        mobilemax: 1025,
+        mobileMax: 850,
+        mobileMax1: 581,
+        mobileMax2: 458,
+        mobileMax3: 435,
     }
 };

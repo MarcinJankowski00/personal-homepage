@@ -8,14 +8,6 @@ export const Segment = styled.section`
     margin: 73px 0;
 `;
 
-export const StyledIcon = styled(GhIcon)`
-    fill: ${({ theme }) => theme.color.blue};
-`;
-
-export const MyProjects = styled.div`
-
-`;
-
 export const Wrapper = styled.div`
 
 `;
@@ -27,15 +19,20 @@ export const Heading = styled.div`
     justify-content: center;
 `;
 
-export const ThisIs = styled.div`
-    font-size: 12px;
-    margin-bottom: 10px;
-    color: ${({ theme }) => theme.color.textsecondary};
+export const StyledIcon = styled(GhIcon)`
+    fill: ${({ theme }) => theme.color.blue};
 `;
 
 export const Title = styled.h2`
     margin: 12px 0;
     font-weight: 900;
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax1}px) {
+        font-size: 18px;
+    }
+`;
+
+export const MyProjects = styled.div`
+
 `;
 
 export const Content = styled.div`
@@ -44,7 +41,6 @@ export const Content = styled.div`
     align-items: center;
     margin: 60px 0;
     font-weight: 400;
-    line-height: 28px;
     text-align: left;
 `;
 
@@ -54,8 +50,11 @@ export const ReposWrapper = styled.div`
     grid-gap: 40px;
     margin: 60px 0;
     font-weight: 400;
-    line-height: 28px;
     text-align: left;
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        grid-template-columns: 1fr;
+        margin: 30px 0;
+    }
 `;
 
 export const Repo = styled.div`
@@ -68,21 +67,34 @@ export const Repo = styled.div`
     padding: 50px;
     border: 6px solid ${({ theme }) => theme.color.repoborder};
     border-radius: 5px;
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax3}px) {
+        padding: 24px;
+    }
 `;
 
 export const Name = styled.h3`
     color: ${({ theme }) => theme.color.reponame};
     margin: 0;
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax3}px) {
+        font-size: 16px;
+    }
 `;
 
 
 export const Description = styled.div`
     font-size: 18px;
     margin: 30px 0;
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax3}px) {
+        font-size: 14px;
+        margin: 15px 0;
+    }
 `;
 
 export const Links = styled.div`
     font-size: 18px;
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax3}px) {
+        font-size: 14px;
+    }
 `;
 
 export const Link = styled.a`
