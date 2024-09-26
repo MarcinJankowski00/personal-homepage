@@ -27,7 +27,7 @@ const Portfolio = () => {
         };
         fetchRepos();
     }, []);
-
+    
     function formatText(input) {
         let formattedText = input.replace(/-/g, ' ');
         formattedText = formattedText.replace(/react/gi, '').trim();
@@ -65,7 +65,7 @@ const Portfolio = () => {
                                             </div>
                                             <Links>
                                                 Code: <Link href={repo.html_url} target="_blank" rel="noopener noreferrer">Link to Code</Link><br />
-                                                Demo: <Link href={`https://marcinjankowski00.github.io/${repo.name}`} target="_blank" rel="noopener noreferrer">Link to Demo</Link>
+                                                Demo: <Link href={repo.homepage} target="_blank" rel="noopener noreferrer">Link to Demo</Link>
                                             </Links>
                                         </Repo>
                                     ))

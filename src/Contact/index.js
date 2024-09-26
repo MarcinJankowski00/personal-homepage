@@ -17,7 +17,7 @@ const Contact = () => (
         </Content>
         <Icons>
             <StyledLink href="https://github.com/MarcinJankowski00" target="_blank" rel="noopener noreferrer"><GhIcon /></StyledLink>
-            <StyledLink href="https://github.com/MarcinJankowski00" target="_blank" rel="noopener noreferrer"><InIcon /></StyledLink>
+            <StyledLink href="https://www.linkedin.com/in/marcin-jankowski-17096332b/" target="_blank" rel="noopener noreferrer"><InIcon /></StyledLink>
         </Icons>
     </Segment>
 );
